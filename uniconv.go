@@ -31,7 +31,8 @@ type UniversalConverter interface {
 	Runes(fallback ...[]rune) []rune
 	Strings(fallback ...[]string) []string
 	Ints(fallback ...[]int) []int
-	Floats(fallback ...[]float32) []float32
+	Floats32(fallback ...[]float32) []float32
+	Floats64(fallback ...[]float64) []float64
 }
 
 type ConverterFunc func(interface{}) UniversalConverter
