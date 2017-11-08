@@ -4,7 +4,7 @@ Cast "anything to anything".
 
 ```golang
 
-import( . github.com/rshmelev/go-uniconv )
+import( . github.com/rshmelev/go-uniconv/cast )
 
 a := Cast(1).Str() // fmt.Sprint(value) 
 b := Cast(2).Float32()
